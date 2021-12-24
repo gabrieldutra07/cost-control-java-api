@@ -8,6 +8,7 @@ public class CostControlJavaApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CostControlJavaApiApplication.class, args);
+		
 	}
 
 }
