@@ -24,8 +24,7 @@ public class Custos {
 	
 	private String importante;
 	
-	@JsonFormat(pattern="yyyy-MM-dd'T'HH:mm:ss")
-	@JsonProperty("data")
+	
 	@Column(name = "data")
 	private Date data;
 	
