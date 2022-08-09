@@ -20,13 +20,13 @@ public class CostController {
 	private CustoRepository custoRepository;
 
 	@GetMapping
-	 public List<Custos> listarCustos() {
+	 public List<Custos> listCosts() {
 		 return custoRepository.findAll();
 	 }
 	
 	@PostMapping
 	@ResponseStatus
-	 public Custos adicionar(@RequestBody Custos custo) {
+	 public Custos addCost(@RequestBody Custos custo) {
 		 return custoRepository.save(custo);
 	 }
 	

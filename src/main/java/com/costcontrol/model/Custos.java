@@ -24,6 +24,8 @@ public class Custos {
 	
 	private String importante;
 	
+	private String responsavel;
+	
 	
 	@Column(name = "data")
 	private Date data;
